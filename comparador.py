@@ -4,7 +4,7 @@ preco_produto1 = float(input("preco do produto: "))
 nome_mercado2 = input("nome do mercado2: ")
 preco_produto2 = float(input("preco do produto: "))
 nome_mercado3 = input("nome do mercado: ")
-preco_do_produto3 = float(input("preco do produto: "))
+preco_produto3 = float(input("preco do produto: "))
 
 if preco_produto1 < preco_produto2 and preco_produto1<preco_do_produto3:
     print(f"{produto}, {nome_mercado1}, {preco_produto1}")
